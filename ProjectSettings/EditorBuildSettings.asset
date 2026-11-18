@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Instruction.unity
     guid: d26616670f3892449b3599eef48359d3
   - enabled: 1
+    path: Assets/Scenes/ExitConfirm.unity
+    guid: 297f5edac445a7f40bdb21220319e317
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 6767fb308d43b23449247edd9e28f35e
+  - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

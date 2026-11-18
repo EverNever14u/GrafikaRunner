@@ -5,16 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SManager : MonoBehaviour
 {
-   public void GoStartGame()
+    public void GoMenu()
     {
-        Debug.Log("Changing scene to start game");
-        SceneManager.LoadScene (2);
-    }
-    
-    public void GoExitGame()
-    {
-        Debug.Log("ExitingGame");
-        Application.Quit();
+        Debug.Log("Changing scene to menu");
+        SceneManager.LoadScene(0);
     }
 
     public void GoInstruction()
@@ -24,11 +18,25 @@ public class SManager : MonoBehaviour
         SceneManager.LoadScene (1);  
     }
 
-     public void GoMenu()
+    public void GoConfirmExit()
 
     {
-         Debug.Log("Changing scene to menu");
-         SceneManager.LoadScene (0);  
+        Debug.Log("Changing scene to ConfirmExit");
+        SceneManager.LoadScene(2);
     }
+
+    public void GoStartGame()
+    {
+        Debug.Log("Changing scene to start game");
+        SceneManager.LoadScene(3);
+    }
+
+    public void GoExitGame()
+    {
+        Debug.Log("ExitingGame");
+        Application.Quit();
+    }
+
+
 
 }
